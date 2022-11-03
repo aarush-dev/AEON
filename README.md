@@ -1,4 +1,3 @@
-# Natura | For The Woman Who Wants It All
 
 [View Live Site](https://gym-natura.vercel.app/)
 
