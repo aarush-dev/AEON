@@ -16,11 +16,11 @@
 }
 
 .medium {
-    font-size: clamp(2.3rem, 5vw, 3.5rem);
+    font-size:80px;
 }
 
 .medium--dark {
-    font-size: clamp(2.3rem, 5vw, 3.5rem);
+    font-size:100px;
     color: var(--secondary);
 }
 

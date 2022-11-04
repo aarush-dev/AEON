@@ -1,6 +1,5 @@
 .join {
     display: grid;
-    gap: 4rem;
     padding: 2rem 0;
     scroll-snap-align: start;
 }
@@ -10,8 +9,6 @@
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    gap: 1.5rem;
-    padding: 2rem 0;
     max-width: 350px;
     margin: 0 auto;
 }
@@ -63,9 +60,7 @@
 @media (min-width:768px) {
     .join {
         grid-template-columns: 1fr 1fr;
-        gap: 2rem;
         place-items: center;
-        padding: 4rem 0;
     }
 
     .join__content {
@@ -75,7 +70,6 @@
 
     .join form {
         display: grid;
-        grid-template-columns: 55% 40%;
         max-width: none;
         margin: 0;
     }

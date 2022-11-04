@@ -23,55 +23,17 @@ const Navbar = () => {
     <>
       <nav className={styled.nav}>
         <div className={styled.nav__logo}>
-          <figure>
-            <img src={logo} alt="Logo" />
-          </figure>
-          <p>Natura</p>
+          <p>Æon 5.0</p>
         </div>
 
-        <RiMenuLine
-          className={styled.nav__icon}
-          size={25}
-          color="var(--primary)"
-          onClick={handleMenu}
-        />
+
 
         <ul className={styled.nav__items}>
-          <li>
-            <Link smooth to="#home">
-              Home
-            </Link>
-          </li>
-
-          <li>
-            <Link smooth to="#about">
-              About
-            </Link>
-          </li>
-
-          <li>
-            <Link smooth to="#programs">
-              Programs
-            </Link>
-          </li>
-
-          <li>
-            <Link smooth to="#facilities">
-              Facilities
-            </Link>
-          </li>
-
-          <li>
-            <Link smooth to="#locations">
-              Locations
-            </Link>
-          </li>
+         
         </ul>
 
         <div className={styled.nav__button}>
-          <Button link="#classes" className="secondary">
-            View Classes
-          </Button>
+        
         </div>
       </nav>
 

@@ -8,9 +8,9 @@ import Button from "../helpers/button/Button";
 const Hero = () => {
   const heading = (
     <>
-      THE EVOLUTION OF <span> fitness</span> for <span>her</span>
+      THE <span>TIME</span> HAS<span> COME!</span>
     </>
-  );
+  );  
 
   return (
     <section className={styled.hero} id="home">
@@ -20,15 +20,14 @@ const Hero = () => {
         <div className={styled["hero__content--container"]}>
           <article className={styled.hero__content}>
             <Heading className="large" heading={heading} />
+            <p></p>
             <p className="text">
-              We believe women should exercise in safe and welcoming space. Our
-              goal is to help women feel confident and comfortable in their own
-              skin, and to encourage them to lead healthy, active lifestyles.
+              The Indian School is delighted to host the fifth iteration of its
+biennial computer technology, creativity and gaming symposium,
+AEON 5.0, on 30th November.
             </p>
 
-            <Button className="primary" link="#membership">
-              Become a Member
-            </Button>
+
           </article>
         </div>
       </Container>

@@ -7,7 +7,6 @@ import styled from "./AboutIntro.module.css";
 const AboutIntro = () => {
   const heading = (
     <>
-      Fitness for <span>her</span>
     </>
   );
   return (
@@ -16,20 +15,19 @@ const AboutIntro = () => {
         <article className={styled.intro__content}>
           <Heading className="medium" heading={heading} />
           <p className="text">
-            Natura was founded in 2014 by two women who were passionate about
-            health and fitness. They wanted to create a safe space for women to
-            workout, free from the judgment and harassment that they often
-            experienced in traditional gyms.
+This competition is organised by
+The Indian School’s tech society, The Indianites Media Experts or
+T.I.M.E. We endeavour to make this competition an enjoyable learning
+experience for all participants and the audience while promoting a
+spirit of healthy competition.
           </p>
 
           <p className="text">
-            The gym has helped countless women improve their health and
-            wellbeing, and it continues to be a place where women can come
-            together to support and motivate each other.
+            We look forward to a keen contest of young technology
+enthusiasts who will offer a struggle to the judges, as the latter attempt to make their choices
+from amongst the very best!
           </p>
-          <Button link="#membership" className="primary">
-            Join Natura
-          </Button>
+
         </article>
       </Container>
     </section>

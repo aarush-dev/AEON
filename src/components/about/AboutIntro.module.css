@@ -1,5 +1,5 @@
 .intro {
-    background-image: url('../../assets/woman_in_sports_bra.png');
+    background-image: url('../../assets/spor.jpg');
     background-size: cover;
     background-position: 30%;
     background-repeat: no-repeat;
@@ -36,6 +36,8 @@
 
     .intro__content {
         grid-column: 3/-1;
+        font-size:20px;
+
     }
 }
 

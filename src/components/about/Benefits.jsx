@@ -7,7 +7,7 @@ import Button from "../helpers/button/Button";
 const Benefits = () => {
   const heading = (
     <>
-      building <span>confidence.</span> building fitness.
+      GENERAL <span>RULES</span> AND <span>GUIDELINES</span>
     </>
   );
   return (
@@ -17,27 +17,21 @@ const Benefits = () => {
           <article className={styled["benefits__content--intro"]}>
             <Heading className="medium" heading={heading} />
             <p className="text">
-              As a women-only gym, our main focus is to help women build
-              confidence through working out and staying healthy. We offer a
-              variety of classes and programs that are designed to help women of
-              all fitness levels reach their goals.
-            </p>
+              <li>The date of the event is 30th November 2022.</li>
+              <li>Only the schools that participate in a minimum of 8 events will be eligible for the Overall
+Winner’s Trophy.</li>
 
-            <p className="text">
-              With Natura you can gain access to a supportive community of
-              women, improving your overall fitness, and increasing your
-              self-confidence.
+<li>Only 1 team is allowed per event from a school.</li>
+<li>The events have been divided into 3 categories- OFFLINE, HYBRID, ONLINE.</li>
+<li>The schedule for the event will be available at <a>www.</a></li>
+<li>For any queries or clarifications please contact us at <a>tis.mediaexperts@gmail.com</a></li>
             </p>
-            <Button link="#locations" className="primary">
-              See Locations
-            </Button>
           </article>
         </Container>
 
         <figure className={styled.benefits__image}>
           <img
-            src="https://images.unsplash.com/photo-1539794830467-1f1755804d13?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
-            alt="A woman stretching her arms"
+            src="https://raw.githubusercontent.com/aarush-dev/AEON/main/src/assets/robo.jpg"
           />
         </figure>
       </div>

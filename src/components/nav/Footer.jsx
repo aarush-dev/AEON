@@ -14,91 +14,36 @@ const Footer = () => {
   return (
     <footer className={styled.footer__container}>
       <Container className={styled.footer}>
-        <ul className={styled.footer__links}>
-          <Heading className="small--dark" heading="Links" />
-          <li>
-            <Link smooth to="#home">
-              Home
-            </Link>
-          </li>
 
-          <li>
-            <Link smooth to="#about">
-              About
-            </Link>
-          </li>
 
-          <li>
-            <Link smooth to="#programs">
-              Programs
-            </Link>
-          </li>
-
-          <li>
-            <Link smooth to="#facilities">
-              Facilities
-            </Link>
-          </li>
-
-          <li>
-            <Link smooth to="#locations">
-              Locations
-            </Link>
-          </li>
-        </ul>
-
-        <article>
-          <Heading className="small--dark" heading="get in touch" />
           <ul className={styled.footer__contact}>
             <div className={styled["footer__contact--info"]}>
-              <h3>Email</h3>
+              <h3>EMAIL</h3>
               <li>
-                <p>Maddison Garden</p>
-                <p>gymnaturamaddison@gmail.com</p>
+                <p>TIME</p>
+                <p>tis.mediaexperts@gmail.com</p>
               </li>
 
-              <li>
-                <p>Blairgrove</p>
-                <p>gymnaturablairgrove@gmail.com</p>
-              </li>
+
             </div>
 
             <div className={styled["footer__contact--info"]}>
-              <h3>Phone</h3>
+              <h3>PHONE</h3>
               <li>
-                <p>Maddison Garden</p>
-                <p>1-547-697-9236</p>
+                <p>MANAN ARORA</p>
+                <p>+91 99103 73557</p>
               </li>
 
               <li>
-                <p>Blairgrove</p>
-                <p>1-250-520-4256</p>
+                <p>DIVYA LAMBDA</p>
+                <p>+91 88266 11978</p>
               </li>
             </div>
           </ul>
-        </article>
-
-        <div className={styled.footer__icons}>
-          <Heading className="small--dark" heading="social media" />
-          <div className={styled["footer__icons--icons"]}>
-            <FaInstagramSquare size={35} color="var(--secondary)" />
-            <FaFacebookSquare size={35} color="var(--secondary)" />
-            <FaTwitterSquare size={35} color="var(--secondary)" />
-          </div>
-        </div>
       </Container>
 
       <ul className={styled.footer__logo}>
-        <Heading className="small" heading="natura" />
-        <li>
-          <a
-            target="_blank"
-            href="https://github.com/m-oniqu3?tab=repositories"
-            rel="noreferrer"
-          >
-            Designed & Developed by Monique
-          </a>
-        </li>
+       
       </ul>
     </footer>
   );
